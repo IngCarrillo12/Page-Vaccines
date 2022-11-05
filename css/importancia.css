@@ -1,0 +1,36 @@
+.importancias{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem 8rem;
+}
+.info_title{
+    font-size: 3rem;
+}
+.importancias_descripcion{
+    width: 50%;
+}
+.importancias_beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.beneficios_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(33.33% - 8rem);
+    height: 300px;
+    padding: 2rem 1rem;
+    border: 2px solid var(--color-border);
+}
+.beneficios_card:hover{
+    box-shadow: 1px 10px 10px var(--color-box-shadow);
+}
+.card_icon{
+    width: 40px;
+    height: 40px;
+    margin-left: .5rem;
+    margin-bottom: 2rem;
+}
+

@@ -1,0 +1,63 @@
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 6rem;
+    background-color: rgba(163, 50, 105, .1);
+}
+.footer_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2rem 0;
+}
+.footer_descripcion{
+    width: 50%;
+}
+.footer_info{
+    width: calc(50% - 4rem);
+}
+.footer_apartados{
+    width: calc(50% - 4rem);
+    display: flex;
+    align-items: center;
+}
+.container_apartado{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: calc(33.33% - 4rem);
+}
+.apartado_title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--color-pink-oscuro);
+    padding-bottom: 1.5rem;
+}
+.apartado_lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+}
+.apartado_link{
+    font-weight: 400;
+}
+.copyrigth{
+    width:calc(50% - 4rem);
+}
+.container_termi-privacy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:calc(50% - 4rem);
+}
+.terminos, .privacy{
+    text-decoration: none;
+    color: var(--color-font);
+}
+.terminos:hover, .privacy:hover{
+    text-decoration: underline 2px var(--color-pink-claro);
+}
+

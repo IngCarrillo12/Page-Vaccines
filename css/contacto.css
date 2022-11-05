@@ -1,0 +1,52 @@
+.contacto{
+    display: flex;
+	padding: 3rem 0;
+}
+.contacto_info{
+    padding: 5rem 6rem;
+}
+.contacto_atenciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+.atenciones_card{
+    background-repeat: no-repeat;
+    background-position: 1.3rem 2rem;
+    background-size: 35px;
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 2rem);
+    padding: 2rem;
+    margin:2rem 1rem;
+    border: 2px solid var(--color-border);
+}
+.card_call{
+    background-image: url(../img/icon_phone.png);
+}
+.card_chat{
+    background-image: url(../img/icon_chat.png);
+}
+.card_video{
+    background-image: url(../img/icon_camara.png);
+}
+.card_message{
+    background-image: url(../img/icon_correo.png);
+}
+.atenciones_card:hover{
+    box-shadow: 1px 10px 10px var(--color-box-shadow);
+}
+.card_info{
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+.card_numero{
+    padding-top: .5rem;
+}
+.card_button{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}

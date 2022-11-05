@@ -1,0 +1,55 @@
+:root{
+    --color-pink-claro:#DC4E91;
+    --color-pink-oscuro:#9e3165;
+    --font-color:#6D505E;
+    --color-text-shadow:#e7abc9; 
+    --color-box-shadow:#aaaaaa;
+    --color-border:rgba(163, 50, 105, .1);
+    --font-family:'Roboto', sans-serif;
+
+}
+body{
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
+.info_title{
+    font-weight: 700;
+    font-size: 3rem;
+    color:var(--color-pink-oscuro);
+    text-shadow: 5px 10px 10px var(--color-text-shadow);
+}
+.info_descripcion{
+    padding: 2rem 0;
+    line-height: 1.5rem;
+}
+.background_icon{
+    background-repeat: no-repeat;
+    padding-left: 1.5rem;
+}
+.card_title{
+    color: var(--color-pink-oscuro);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-shadow: 5px 10px 10px var(--color-text-shadow);
+}
+.card_descripcion{
+    padding: 1rem 0;
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+.buttons{
+    color: var(--font-color);
+    background: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid var(--color-pink-claro);
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    width: 150px;
+    height: 50px;
+}
+.buttons:hover{
+    background-color: var(--color-pink-claro);
+    color: #fff;
+}

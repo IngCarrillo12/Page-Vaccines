@@ -1,0 +1,86 @@
+.home{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.home_info{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 8rem;
+    width: calc(100% - 600px);  
+}
+.home_descripcion{
+    width: 100%;
+}
+.info_lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.item_protection{
+    background-image: url(../img/icon_protection.png);
+}
+.item_vaccines{
+    background-image: url(../img/icon_star.png);
+}
+.item_img{
+    padding-right: .5rem;
+}
+.title_form{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color-pink-oscuro);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-image: url(../img/icon_reloj.png);
+}
+.home_form{
+    display: flex;
+    align-items:center;
+    box-shadow: 5px 10px 10px var(--color-box-shadow);
+    z-index: 100;
+    width:70vw;
+    height: 100px;   
+}
+.home_form:hover{
+    box-shadow: 10px 20px 10px var(--color-box-shadow);
+}
+.contenedor{
+    padding-left: 5rem;
+}
+.form_label{
+    color: var(--font-color);
+    font-size: 1rem;
+}
+
+.label_location{
+    background-image: url(../img/icon_location.png);
+}
+.label_date{
+    background-image: url(../img/icon_calendar.png);
+}
+.label_vaccine{
+    background-image: url(../img/icon_lapiz.png);
+}
+.form_input{
+    display: block;
+    color:var(--color-pink-oscuro);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    border: none;
+    background: none;
+    width: 150px;
+}
+.form_input:focus{
+    outline: none;
+}
+.form_input::placeholder{
+    color: var(--color-pink-oscuro); ;
+}
+.home_img{
+    width: 50%;
+    height: 600px;
+}
