@@ -47,6 +47,13 @@
 .copyrigth{
     width:calc(50% - 4rem);
 }
+.footer_copyrigth-terminos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2rem 0rem;
+}
 .container_termi-privacy{
     display: flex;
     align-items: center;

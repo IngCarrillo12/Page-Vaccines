@@ -1,0 +1,117 @@
+@media screen and (max-width:756px) {
+    .header{
+        flex-direction: column;
+    }
+    .nav_boton{
+        display: none;
+    }
+    .header_nav{
+        width: 100%;
+    }
+    .home_img{
+        display: none;
+    }
+    .info_title{
+        font-size: 2rem;
+    }
+    .home_info{
+        padding: 2rem;
+        width: 100% 
+    }
+    .home_form{
+        width:100%;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 500px;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .form_input{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        margin-left: 1.5rem;
+    }
+    .contenedor{
+        padding-left: 1rem;
+    }
+    .marcas_img{
+        width: calc(25% - 2rem);
+        height: 100px;
+        opacity: 0.3;
+    }
+    .importancias{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem;
+    }
+    .importancias_descripcion{
+        width: 100%;
+    }
+    .importancias_beneficios{
+        height: 650px;
+    }
+    .beneficios_card{
+        width: calc(50% - 1rem);
+        height: 300px;
+        padding: 2rem 1rem;
+    }
+    .recomendacion{
+        padding: 1rem 0;
+    }
+    .recomendacion_img{
+        display: none;
+    }
+    .recomendacion_info{
+        padding: 2rem;
+    }
+    details{
+        width:100%;
+    }
+    .contacto_info{
+        padding: 2rem;
+    }
+    .contacto_img{
+        display: none;
+    }
+    .atenciones_card{
+        background-position: 2.5rem 5rem;
+        padding: 5rem 2rem;
+        width: calc(100% - 2rem);
+    }
+    .card_info{
+        padding-bottom: 2rem;
+        padding-left: 3rem;
+    }
+    .footer{
+        width: 100%;
+        padding: 2rem;
+    }
+    .footer_container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer_info{
+        width: calc(100% - 4rem);
+    }
+    .footer_descripcion{
+        width: 100%;
+    }
+    .container_apartado{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: calc(33.33% - 2rem);
+    }
+    .apartado_title{
+        font-size: 1rem;
+
+    }
+    .footer_apartados{
+        width: calc(100vw - 2rem);
+        flex-wrap: wrap;
+    }
+    .footer_copyrigth-terminos{
+        justify-content: space-between;
+        padding: 2rem 1rem;
+    }
+}
